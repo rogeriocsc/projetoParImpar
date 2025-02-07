@@ -4,33 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Par ou Impar</title>
-    <link rel="shortcut icon" href="imagem/ico-favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
 </head>
 <body>
-    <header>
-        <h2>Par ou Impar</h2>
-    </header>
     <main>
-        <section class="section-form">
-            <section class="elementos">
+        <section class="form-parImpar">
+            <div class="imagem"></div>
+            <div class="parImpar">
+                <h1>Par ou Ímpar</h1>
                 <div class="campo">
-                    <label for="f_val">Valor</label>
-                    <input type="text" name="f_val" id="val" placeholder="Informe o Valor">
+                    <label for="ival">Valor</label>
+                    <input type="text" name="valor" id="ival" placeholder="Digite um Valor">
                 </div>
-                <button onclick="calcular()">Verificar</button>
-                <div class="res" id="resp">
+                <button onclick="calcular()">Calcular</button>
+                <div class="res" id="resposta">
                     <p>Informe os dados Acima!</p>
                 </div>
-            </section>
-            <section class="img">
-                <img src="imagem/img-verificacao.png" alt="verificacao">
-            </section>
+            </div>
         </section>
     </main>
     <script src="js/script.js"></script>
-    <footer>
-        <p>Copyright Par ou Impar 2025</p>
-    </footer>
 </body>
 </html>
