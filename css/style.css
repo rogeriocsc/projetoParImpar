@@ -29,7 +29,7 @@ main {
     width: 100vw;
 }
 
-.form-parImpar {
+.projeto-parImpar {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,12 +38,11 @@ main {
     background: white;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.247);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.356);
     transform: translate(-50%, -50%);
 }
 
 .imagem {
-    display: block;
     float: right;
     width: 50%;
     height: 100%;
@@ -54,20 +53,15 @@ main {
 }
 
 .parImpar {
-    display: block;
     float: left;
     width: 50%;
+    text-align: center;
 }
 
 .parImpar > h1 {
-    text-align: center;
     padding-top: 20px;
     font-size: 1.7em;
     color: red;
-}
-
-div.campo {
-    text-align: center;
 }
 
 div.campo label {
@@ -90,10 +84,9 @@ div.campo label {
 }
 
 .parImpar > button {
-    display: block;
-    margin: 20px auto;
     width: 150px;
     height: 40px;
+    margin: 20px;
     background-color: #D92525;
     color: white;
     font-size: 1.04em;
@@ -107,7 +100,6 @@ div.campo label {
 }
 
 div.res {
-    text-align: center;
     font-size: 1.25em;
     padding: 5px;
 }

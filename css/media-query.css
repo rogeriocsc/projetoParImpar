@@ -2,13 +2,8 @@
 
 /* Tablet: 768px até 992px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
-        background-image: linear-gradient(to top, rgb(2, 168, 168), teal);
-    }
-
-    .form-parImpar {
+    .projeto-parImpar {
         width: 90vw;
-        height: 470px;
     }
 
     div.imagem {
@@ -22,10 +17,6 @@
         float: right;
         width: 60%;
     }
-
-    .campo input[type="text"] {
-        width: 54%;
-    }
 }
 
 /* Celular: de 600px até 768px */
@@ -34,7 +25,7 @@
         background: teal;
     }
 
-    .form-parImpar{
+    .projeto-parImpar{
         width: 300px;
         height: 530px;
     }
