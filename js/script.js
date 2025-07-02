@@ -1,5 +1,5 @@
-    let val = window.document.getElementById('ival')
-    let res = window.document.getElementById('resposta')
+let val = window.document.getElementById('ival')
+let res = window.document.getElementById('resposta')
 
 function calcular() {
     let vl = Number(val.value)
