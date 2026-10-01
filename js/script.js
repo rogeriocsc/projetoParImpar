@@ -1,9 +1,9 @@
-function calcular() {
-    let val = window.document.getElementById('ival')
-    let res = window.document.getElementById('resposta')
+function verificar() {
+    let val = window.document.getElementById('i_val')
+    let res = window.document.getElementById('resp')
 
       // Verifica se o campo está vazio
-    if (val.value.trim() === "") {
+    if (val.value === "") {
         alert("Digite um número!")
         val.focus()
         return
@@ -11,10 +11,13 @@ function calcular() {
 
     let vl = Number(val.value)
     if (vl % 2 == 0) {
-        res.innerHTML = `<p>O Valor ${vl} <strong> é PAR </strong>
+        res.innerHTML = `<p>
+            O Valor ${vl} <strong> é PAR </strong>
         </p>`
     } else {
-        res.innerHTML = `<p>O Valor ${vl} é
-        <strong> ÍMPAR </strong></p>`
+        res.innerHTML = `<p>
+            O Valor ${vl} é
+            <strong> ÍMPAR </strong>
+        </p>`
     }
 }

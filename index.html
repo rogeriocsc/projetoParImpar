@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/img-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/script.js" defer></script>
     <title>Par ou Impar</title>
-    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media-query.css">
 </head>
 <body>
     <main>
-        <section class="projeto-parImpar">
-            <div class="imagem"></div>
-            <div class="parImpar">
+        <section class="projeto-par-impar">
+            <div class="img"></div>
+            <div class="projeto">
                 <h1>Par ou Ímpar</h1>
                 <div class="campo">
-                    <label for="ival">Valor</label>
-                    <input type="text" name="valor" id="ival" placeholder="Digite um Valor">
+                    <label for="i_val">Valor</label>
+                    <input type="number" name="valor" id="i_val" placeholder="Digite um Valor">
                 </div>
-                <button onclick="calcular()">Calcular</button>
-                <div class="res" id="resposta">
-                    <p>Informe os dados Acima!</p>
+                <button type="button" onclick="verificar()">
+                    Verificar
+                </button>
+                <div class="resposta" id="resp">
+                    <p>Verificando..</p>
                 </div>
             </div>
         </section>
     </main>
-    <script src="js/script.js"></script>
 </body>
 </html>
